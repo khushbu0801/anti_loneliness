@@ -1,0 +1,261 @@
+*{
+    margin:0;
+    padding: 0;
+}
+img{
+    height: 60px;
+    max-width: 250px;
+}
+/* Menu-bar starts */
+.navbar{
+    padding: 15px 0;
+    background-color: #ECE3F0 !important;
+    border-bottom: none !important;
+}
+.navbar-brand{
+    padding: 0 15px !important;
+}
+.navbar ul li a{
+    color: #ECE3F0 !important;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-in;
+}
+/* Responsive menu starts */
+.navbar ul li a:hover{
+    background-color: #8e60a0 !important;
+    color: #33213b !important;
+}
+.navbar-toggle{
+    border: 0.5px solid #8e60a0 !important;
+    transition: all 0.3s ease-in;
+}
+.navbar-toggle:hover{
+    background-color: #8e60a0 !important;
+}
+.navbar-inverse .navbar-collapse{
+    border-color: transparent !important;
+}
+/* Responsive menu starts */
+.navbar-inverse{
+    background-color: transparent !important;
+}
+
+/* Sticky navbar*/
+.secondary {
+    background-color:#461c52 !important;
+}
+/* Menu bar ends*/
+
+/* Slider starts*/
+.slider{
+    color: white;
+    width: 100%;
+    height: 400px;
+    background: url("https://source.unsplash.com/1600x900/?happy") no-repeat center center/cover;
+}
+.slider-overlay{
+    width:100%;
+    height:100%;
+    position: relative;
+    background: rgba(0,0,0,0.65);
+}
+.slider-content{
+    position:absolute;
+    top:30%;
+    width: 100%;
+}
+.icons .fa{
+    font-size: 40px;
+    margin:10px 10px;
+    padding: 5px 5px;
+}
+.slider .text-workshop, .slider .typed-cursor{
+    display: inline;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    color: #BC97C6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Responsive slider*/
+@media screen and (max-width:430px){
+    .slider .text-workshop, .slider .typed-cursor{
+        display: none;
+    }
+    .slider{
+        height:300px;
+    }
+    .footer{
+        display: none;
+    }
+}
+/* Slider ends*/
+
+/*Workshop Page css starts*/
+.workshop-area .container .row-workshop{
+    display:flex;
+}
+.workshop-selfdevlopment-img{
+    flex: 1;
+    padding: 0 0 0 70px;
+    margin: 0;
+    max-width: 45%;
+    text-align: center;
+}
+
+.workshop-selfdevlopment-content{
+    flex:1;
+
+}
+.workshop-selfdevlopment-links li a{
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+}
+.workshop-selfdevlopment-links li a:hover{
+    color: #8e60a0;
+}
+.workshop-selfdevlopment-content li{
+    list-style: none;
+}
+.workshop-selfdevlopment-img img{
+    height: 300px;
+    max-width: 300px;
+    box-shadow: 0 0 10px rgb(43, 39, 39);
+    overflow: hidden;
+}
+
+.workshop-area .container .row-parenting{
+    display:flex;
+}
+
+.workshop-parenting-img{
+    flex: 1;
+    padding: 0 0 0 60px;
+    margin: 0;
+    max-width: 56%;
+    text-align: left;
+}
+.workshop-parenting-content{
+    flex:1;
+    text-align: end;
+}
+.workshop-parenting-links li a{
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+}
+.workshop-parenting-links li a:hover{
+    color: #8e60a0;
+}
+.workshop-parenting-content li{
+    list-style: none;
+}
+.workshop-parenting-img img{
+    height: 300px;
+    max-width: 300px;
+    box-shadow: 0 0 10px rgb(43, 39, 39);
+    overflow: hidden;
+}
+
+.workshop-area .container .row-relationship{
+    display:flex;
+}
+
+.workshop-relationship-img{
+    flex: 1;
+    padding: 0 0 0 70px;
+    margin: 0;
+    max-width: 45%;
+    text-align: center;
+}
+.workshop-relationship-content{
+    flex:1;
+}
+.workshop-relationship-links li a{
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+}
+.workshop-relationship-links li a:hover{
+   color: #8e60a0;
+}
+.workshop-relationship-content li{
+    list-style: none;
+}
+.workshop-relationship-img img{
+    height: 300px;
+    max-width: 300px;
+    box-shadow: 0 0 10px rgb(43, 39, 39);
+    overflow: hidden;
+}
+
+/*Workshop Page css ends*/
+
+/*Footer section starts*/
+.footer{
+    color: white;
+    width: 100%;
+    background: #461c52;
+}
+.footer-overlay{
+    width:100%;
+    height:100%;
+    position: relative;
+    background: rgba(172, 172, 172, 0.65);
+}
+.footer .footer-overlay .container .rows{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    
+}
+.footer-counseling{
+    flex: 1;
+    justify-content: center;
+    margin-top: 40px;
+}
+.footer-workshop{
+    flex: 1;
+    justify-content: center;
+    margin-top: 40px;
+}
+.footer-aboutus{
+    flex: 1;
+    justify-content: center;
+    margin-top: 40px;
+}
+.footer-address{
+    flex: 1;
+    justify-content: center;
+    margin-top: 40px;
+}
+.footer-links li{
+    list-style-type: none;
+}
+.footer-links li a{
+    text-decoration: none;
+    color: white; 
+}
+.footer-links li a:hover{
+    text-decoration: underline  #33213b;
+    color: white;
+}
+.link-heading{
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+}
+.footer-icons .fa{
+    font-size: 30px;
+    margin:10px 10px;
+    padding: 5px 5px;
+    color: #33213b;
+}
+.footer-icons .fa a{
+    text-decoration: none;  
+}
+.footer-icons .fa:hover{
+    text-decoration: none;
+    color: white;  
+}
+/*Footer section ends*/
